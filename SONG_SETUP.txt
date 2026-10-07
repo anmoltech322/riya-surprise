@@ -1,0 +1,19 @@
+WEBSITE SONG SETUP
+
+Password:
+Riya@123
+
+Song:
+Put your legally obtained Barsaat MP3 file in the SAME folder as the HTML file and name it:
+
+barsaat.mp3
+
+Then open the HTML file. After the correct password is entered, the song will automatically start.
+
+Why it starts after the password:
+Modern browsers usually block audible autoplay when a page opens without user interaction. Entering the password and pressing "Open My Surprise" is the required user interaction, so the music can start at that moment.
+
+To change the password:
+Open the HTML in a text editor and find:
+const CORRECT_PASSWORD = "Riya@123";
+Replace Riya@123 with your own password.
